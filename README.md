@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-jsontotable
+npm i json-react-table
 ```
 
 ## Usage
