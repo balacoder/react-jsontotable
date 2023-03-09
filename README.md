@@ -46,6 +46,8 @@ export default App
 
 
 ```
+## Output
+![alt text](https://github.com/balacoder/react-jsontotable/blob/main/src/asset/npm.png)
 
 ## License
 
