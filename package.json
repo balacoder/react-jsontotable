@@ -1,6 +1,6 @@
 {
   "name": "json-react-table",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JSONtoTABLE component helps to convert json to table with remove key&#x27;s",
   "author": "Balamurugan",
   "license": "MIT",
