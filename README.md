@@ -13,16 +13,38 @@ npm install --save react-jsontotable
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-jsontotable'
+import { JsonTable } from 'react-jsontotable'
 import 'react-jsontotable/dist/index.css'
+const App = () => {
+  const data=[
+  {name:'bala',age:500,address:'Paramakudi',country:'USA'},
+  {name:'chandra',age:600,address:'Melur',country:'USA'},
+  {name:'varun',age:700,address:'Thuraiyur',country:'USA'}]
+  const removeArray=['address','country']
+  return <>  
+      <h2 align='center'>Json Table without filter</h2>
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+      <table className='timecard'>
+        <JsonTable data={data}/>
+      </table>  
+
+      <br/>
+
+      <h2 align='center'>Json Table with filter (age)</h2>
+
+      <table className='timecard'>
+        <JsonTable data={data} removeField={removeArray}/>
+      </table>  
+      
+      <br/>
+  </>
 }
+
+export default App
+
+
 ```
 
 ## License
