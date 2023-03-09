@@ -1,8 +1,8 @@
-# react-jsontotable
+# json-react-table
 
 > JSONtoTABLE component helps to convert json to table with remove key&#x27;s
 
-[![NPM](https://img.shields.io/npm/v/react-jsontotable.svg)](https://www.npmjs.com/package/react-jsontotable) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/json-react-table.svg)](https://www.npmjs.com/package/json-react-table) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -15,8 +15,8 @@ npm i json-react-table
 ```jsx
 import React from 'react'
 
-import { JsonTable } from 'react-jsontotable'
-import 'react-jsontotable/dist/index.css'
+import { JsonTable } from 'json-react-table'
+import 'json-react-table/dist/index.css'
 const App = () => {
   const data=[
   {name:'bala',age:500,address:'Paramakudi',country:'USA'},
