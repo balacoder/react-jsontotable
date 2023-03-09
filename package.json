@@ -4,7 +4,7 @@
   "description": "JSONtoTABLE component helps to convert json to table with remove key&#x27;s",
   "author": "Balamurugan",
   "license": "MIT",
-  "repository": "Balamurugan/react-jsontotable",
+  "repository": "https://github.com/balacoder/react-jsontotable.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
